@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "hrcm"
+        },
+        "AzureDataLakeStorage1_accountKey": {
+            "value": ""
+        },
+        "AzureSqlDatabase1_password": {
+            "value": ""
+        },
+        "AzureSqlDatabase2_password": {
+            "value": ""
+        },
+        "AzureDatabricksDeltaLake1_accessToken": {
+            "value": ""
+        },
+        "AzureDataLakeStorage1_properties_typeProperties_url": {
+            "value": "https://hrcmstorage.dfs.core.windows.net/"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_server": {
+            "value": "hrcm-sql-dev.database.windows.net"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_database": {
+            "value": "hosp_a_db"
+        },
+        "AzureSqlDatabase1_properties_typeProperties_userName": {
+            "value": "hrcmadmin"
+        },
+        "AzureSqlDatabase2_properties_typeProperties_server": {
+            "value": "hrcm-sql-dev.database.windows.net"
+        },
+        "AzureSqlDatabase2_properties_typeProperties_database": {
+            "value": "hosp_b_db"
+        },
+        "AzureSqlDatabase2_properties_typeProperties_userName": {
+            "value": "hrcmadmin"
+        }
+    }
+}
