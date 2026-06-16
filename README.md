@@ -1,5 +1,9 @@
 # Healthcare Revenue Cycle Management (RCM) Azure Data Engineering Platform
+## Solution Architecture
 
+![Healthcare RCM Architecture](0.%20Architecture/Healthcare_RCM_Azure_Architecture.png)
+
+---
 ## Project Overview
 
 This project demonstrates the design and implementation of an end-to-end Healthcare Revenue Cycle Management (RCM) Data Engineering Platform on Microsoft Azure. The platform integrates healthcare transactional data from multiple source systems, processes it through a Medallion Architecture (Bronze, Silver, and Gold layers), and delivers curated datasets for enterprise reporting and analytics.
